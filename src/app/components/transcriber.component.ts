@@ -4,7 +4,7 @@ import { FormGroup, FormControl, Validators } from '@angular/forms';
 import { TranscriberService } from '../services/transcriber.service';
 
 @Component({
-    selector: 'app-nucleic-acid-sequence',
+    selector: 'app-transcriber',
     templateUrl: './transcriber.component.html',
     styleUrls: ['./transcriber.component.css']
 })
