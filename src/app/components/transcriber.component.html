@@ -1,0 +1,13 @@
+<form (ngSubmit)="submitSequenceData()" [formGroup]="sequenceDataFormGroup">
+    <div *ngIf="dataSubmitted">DATA SUBMITTED!</div>
+    <div *ngIf="errorMessage">ERROR!</div>
+    <div>
+        <label for="input-sequence-data">
+            input sequence data
+        </label>
+        <textarea formControlName="inputSequenceData" id="input-sequence-data">        
+        </textarea>
+    </div>
+    <button type="submit">Submit</button>
+    
+</form>
